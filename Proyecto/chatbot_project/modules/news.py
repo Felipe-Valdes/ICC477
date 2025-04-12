@@ -11,7 +11,7 @@ load_dotenv()
 
 # Configuración de la API de NewsAPI
 
-API_KEY = os.getenv("NEWS_API_KEY")  # Obtener la clave API desde el archivo .env
+API_KEY = os.getenv("NEWSAPI_KEY")  # Obtener la clave API desde el archivo .env
 CATEGORY = "business"  # Categoría de noticias (business, entertainment, general, health, science, sports, technology)
 LANGUAGE = "en"  # Idioma de las noticias 
 NUM_NOTICIAS = 5  # Número de noticias a obtener

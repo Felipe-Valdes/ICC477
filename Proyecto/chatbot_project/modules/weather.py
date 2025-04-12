@@ -13,7 +13,7 @@ def obtener_clima():
     
     # Configuración de la API de OpenWeatherMap
     
-    API_KEY = os.getenv("WEATHER_API_KEY")  # Obtener la clave API desde el archivo .env
+    API_KEY = os.getenv("OPENWEATHER_API_KEY")  # Obtener la clave API desde el archivo .env
     ciudad = "Santiago"     # Ciudad por defecto (Santiago)
     url = f"http://api.openweathermap.org/data/2.5/weather?q={ciudad}&appid={API_KEY}&units=metric&lang=es" # URL para obtener el clima de la ciudad especificada en español y en grados Celsius
 
