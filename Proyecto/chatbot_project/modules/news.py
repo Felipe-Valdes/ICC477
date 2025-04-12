@@ -3,10 +3,15 @@
 
 import requests
 from googletrans import Translator
+import os
+from dotenv import load_dotenv
+
+# Cargar las variables del archivo .env
+load_dotenv()
 
 # Configuración de la API de NewsAPI
 
-API_KEY = "084a1b8be52f42a6a1c06a9a0ae2777c"  # Reemplaza con tu clave API
+API_KEY = os.getenv("NEWS_API_KEY")  # Obtener la clave API desde el archivo .env
 CATEGORY = "business"  # Categoría de noticias (business, entertainment, general, health, science, sports, technology)
 LANGUAGE = "en"  # Idioma de las noticias 
 NUM_NOTICIAS = 5  # Número de noticias a obtener

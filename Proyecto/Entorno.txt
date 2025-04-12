@@ -1,1 +1,5 @@
-pip install requests spacy googletrans==4.0.0-rc1
+python -m venv ICC477
+
+.\ICC477\Scripts\activate
+
+pip install requests spacy googletrans==4.0.0-rc1 python-dotenv
