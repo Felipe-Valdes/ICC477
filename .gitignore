@@ -1,1 +1,24 @@
+# Ignorar la carpeta ICC477 (y todo su contenido)
 ICC477/
+
+# Ignorar el archivo .env que contiene las claves API
+.env
+
+# Ignorar los archivos y carpetas de compilación de Python
+__pycache__/
+*.pyc
+
+# Ignorar el entorno virtual si lo tienes dentro de tu repositorio
+venv/
+env/
+
+# Ignorar archivos de configuración del editor, como los de VSCode o PyCharm
+.vscode/
+.idea/
+
+# Ignorar los archivos de logs
+*.log
+
+# Ignorar archivos de sistema (como los creados por Mac OS o Windows)
+.DS_Store
+Thumbs.db
